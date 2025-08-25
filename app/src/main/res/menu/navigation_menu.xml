@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_properties"
+            android:icon="@drawable/ic_home"
+            android:title="All Properties" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search &amp; Filter" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/nav_reservations"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="My Reservations" />
+        <item
+            android:id="@+id/nav_contact_us"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="Administration">
+        <menu>
+            <item
+                android:id="@+id/nav_admin_panel"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="Admin Panel" />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
